@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yatra]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SearchTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="yatra.tests.SearchTest">
+        <methods>
+          <include name="selectLowestPriceInLeftCalendar"/>
+          <include name="initialize"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- yatra.tests.SearchTest -->
+    </classes>
+  </test> <!-- SearchTest(failed) -->
+</suite> <!-- Failed suite [Yatra] -->
